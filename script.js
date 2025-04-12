@@ -1,7 +1,7 @@
 //we are going to make an EV. It will triger when the DOM is loaded
 
 addEventListener("DOMContentLoaded", async function () {
-  const response = await fetch("http://localhost:3000/api/songs");
+  const response = await fetch("https://fabulous-destiny-canid.glitch.me");
   const songs = await response.json();
 
   let html = "";
