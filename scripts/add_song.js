@@ -13,7 +13,7 @@ async function addSong() {
     genre: document.querySelector("#genre").value ? document.querySelector("#genre").value.split(",") : [],
   };
 
-  const response = await fetch("https://deep-conscious-pigment.glitch.me", {
+  const response = await fetch("https://deep-conscious-pigment.glitch.me/api/songs/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
