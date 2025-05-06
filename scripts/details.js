@@ -4,7 +4,7 @@ addEventListener("DOMContentLoaded", async function () {
   const songID = urlparam.get("id");
   console.log(songID);
 
-  const response = await this.fetch("https://deep-conscious-pigment.glitch.me/api/songs/" + songID);
+  const response = await this.fetch("https://recondite-ubiquitous-banon.glitch.me/api/songs/" + songID);
   const song = await response.json();
   console.log(song);
 

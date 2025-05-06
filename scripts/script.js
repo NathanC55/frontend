@@ -1,6 +1,6 @@
 //eventlistener,triggers when DOM is loaded
 addEventListener("DOMContentLoaded", async function () {
-  const response = await fetch("https://deep-conscious-pigment.glitch.me/api/songs/");
+  const response = await fetch("https://recondite-ubiquitous-banon.glitch.me/api/songs/");
   const songs = await response.json();
 
   let html = "";
